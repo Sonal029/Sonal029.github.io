@@ -82,18 +82,19 @@
 		   
 		</div>
 		<div class="content">
-			<ul class="primary-menu nav nav-pills">
+			<!-- <ul class="primary-menu nav nav-pills">
 				<li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
 				<li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Skills</a></li>
 				<li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Project</a></li>
 				<li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
-			</ul>
+			</ul> -->
 			<!-- social sharea area -->
 			<div class="social-share-style-1 mt--40">
 				<span class="title">Resume</span>
 				<ul class="social-share d-flex liststyle">
-					<li> <a href="./ShakambhariResume.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-					<li> <a download  href="ShakambhariResume.pdf"><i class="fa-solid fa-download"></i></a></li>
+					<!-- <li> <a href="./ShakambhariResume.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+					<li> <a download  href="ShakambhariResume.pdf"><i class="fa-solid fa-download"></i></a></li> -->
+                    <li class="nav-link resume"><a id="resume-button-1" target="_blank" href="./ShakambhariResume.pdf" download="" onclick="window.open('https://drive.google.com/file/d/1-i4RGQkMRZFG4PpJJQOAuCsFJ7HkqFD0/view?usp=sharing','_blank');"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
 			   
 				</ul>
 			  
@@ -171,7 +172,7 @@
 			<!-- <ul class="skill-share d-flex liststyle resume-icon"> -->
 
 				<ul class="skill-share d-flex liststyle">
-					<li><a target="_blank" href="https://drive.google.com/file/d/1-i4RGQkMRZFG4PpJJQOAuCsFJ7HkqFD0/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+					<li><a id="resume-link-2" target="_blank" href="https://drive.google.com/file/d/1-i4RGQkMRZFG4PpJJQOAuCsFJ7HkqFD0/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
 					<li> <a download  href="ShakambhariResume.pdf"><i class="fa-solid fa-download"></i></a></li>
 				 </ul>
 				<!-- <div class = "resume-icon">
@@ -204,7 +205,7 @@
     <div class="home_about">
 	
 
-	About Section
+	<!-- About Section -->
 	<section id="about" class="about section">
 		<div id="resume_container">
 			<div class = "resume-icon">
@@ -212,9 +213,9 @@
 				<a id="resume-link-2" target ="_blank" download href ="./ShakambhariResume.pdf">resume</a>
 			    </button>
 			</div>
-			<div class = "resume-icon">
+			<!-- <div class = "resume-icon">
 				<a id="resume-link-2" target="_blank" href="https://drive.google.com/file/d/1-i4RGQkMRZFG4PpJJQOAuCsFJ7HkqFD0/view?usp=sharing"><img src="./link.png" alt=""></a>
-			</div> 
+			</div>  -->
 		</div>
 	</section> 
 
@@ -631,6 +632,11 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
  GitHubCalendar(".calendar", "Sonal029");
  // or enable responsive functionality
  GitHubCalendar(".calendar", "Sonal029", { responsive: true });
+		function openResume()
+		{
+			console.log("opening");
+			window.open("https://drive.google.com/file/d/1-i4RGQkMRZFG4PpJJQOAuCsFJ7HkqFD0/view?usp=share_link")
+		}
 </script>
 
 <!-- ---------------- -->
