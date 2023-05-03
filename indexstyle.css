@@ -8717,7 +8717,7 @@ body.template-color-1 {
   color: var(--color-primary); }
 
 .demo-modal-area.white-version .popuptab-area li a.nav-link::before {
-  display: none; }
+  /* display: none; } */
 
 .demo-modal-area.white-version .popuptab-area li a.nav-link.active::before {
   opacity: 1; }
