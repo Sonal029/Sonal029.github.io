@@ -3750,8 +3750,8 @@ audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* [hidden] {
-  display: none; } */
+[hidden] {
+  display: none; }
 
 a {
   color: var(--color-heading);
@@ -7941,7 +7941,7 @@ body.template-color-1 {
         font-size: 13px;
         padding: 17px 19px;
         line-height: 21px; } }
-    /* @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .header-wrapper .header-right a.rn-btn {
         display: none; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -7949,7 +7949,7 @@ body.template-color-1 {
         display: none; } }
     @media only screen and (max-width: 767px) {
       .header-wrapper .header-right a.rn-btn {
-        display: none; } } */
+        display: none; } }
     .header-wrapper .header-right i {
       z-index: 800;
       color: var(--color-primary);
@@ -11551,7 +11551,7 @@ div#featured-project-carousel {
             z-index: 1; }
             @media only screen and (max-width: 479px) {
               .navigation-wrapper ul.nav li.recommended::after {
-                /* display: none; } } */
+                display: none; } }
           .navigation-wrapper ul.nav li.recommended::before {
             content: "Recommended";
             position: absolute;
