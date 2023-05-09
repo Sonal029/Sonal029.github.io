@@ -14999,7 +14999,7 @@ section .title::after {
   border-radius: 6px;
   border-bottom-width: 2px;
   cursor: pointer;
-  opacity: 0;
+  opacity: 100;
   pointer-events: none;
   transition: all 0.3s ease;
 }
@@ -15010,84 +15010,6 @@ section .title::after {
 }
 .scroll-up-btn:hover {
   filter: brightness(90%);
-}
-.projectcardsmain{
-  width: 80%;
-  margin: auto;
-  gap: 10%;
-  display: flex;
-  margin-bottom: 7%;
-}
-
-.projectcards {
-  position: relative;
-  width: 90%;
-}
-
-.imagepro {
-  display: block;
-  width: 90%;
-  height: 100%;
-  margin: auto;
-}
-
-.overlaypro {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #251e21;
-  overflow: hidden;
-  width: 90%;
-  margin: auto;
-  height: 0;
-  transition: .5s ease;
-}
-
-.projectcards:hover .overlaypro {
-    bottom: 0%;
-    height: 100%;
-    top: 00%;
-    width: 90%;
-    margin: auto;
-}
-
-.textpro {
-  /* white-space: nowrap; 
-  color: #ff6402;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); */
-  color: #ff6402;
-    font-size: 14px;
-    position: absolute;
-    overflow: visible;
-    top: 7%;
-    left: 4%;
-    width: 83%;
-}
-
-.projectbuttons{
-  width: 80%;
-  margin: auto;
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.projectbuttons button{
-  padding: 10px 20px;
-  font-size: 15px;
-  border-radius: 8px;
-  font-weight: 800;
-  background-color: #251e21;
-  color: #ff6402;
-  cursor: pointer;
 }
 
 * {
