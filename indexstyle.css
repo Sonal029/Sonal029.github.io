@@ -14999,7 +14999,7 @@ section .title::after {
   border-radius: 6px;
   border-bottom-width: 2px;
   cursor: pointer;
-  opacity: 100;
+  opacity: 0;
   pointer-events: none;
   transition: all 0.3s ease;
 }
@@ -15037,7 +15037,7 @@ html {
   background: #555;
 }
 
-/* all similar content styling codes */
+/* all similar content styling codes
 section {
   padding: 100px 0;
 }
@@ -15091,4 +15091,4 @@ section .title::after {
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
-}
+} */
