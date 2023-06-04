@@ -14657,7 +14657,7 @@ body.white-version {
     /* margin: 20px; */
   }
 
-  #techStacks {
+  #skillStacks {
     /* border: 1px solid gold; */
     display: flex;
     /* grid-template-columns: repeat(4, 100px); */
@@ -14693,7 +14693,7 @@ body.white-version {
     font-weight: 500;
     font-size: 16px;
   }
-  .tech-card {
+  .skills-card {
     height: auto;
     width: 180px;
     background-color: white;
@@ -14703,22 +14703,22 @@ body.white-version {
     justify-content: center;
     align-items: center;
   }
-  .tech-card-name {
+  .skills-card-name {
     color: black;
     font-weight: 600;
     font-size: 17px;
   }
-  .tech-card-logo {
+  .skills-card-img {
     height: 100px;
     width: 100px;
     background-color: white;
     /* border: 1px solid black; */
     padding: 10px;
   }
-  .tech-card-logo>img {
+  .skills-card-img>img {
     width: 100%;
   }
-  .tech-card {
+  .skills-card {
     /* display: inline-block; */
     /* vertical-align: middle; */
     -webkit-transform: perspective(1px) translateZ(0);
@@ -14727,9 +14727,9 @@ body.white-version {
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
   }
-  .tech-card:hover,
-  .tech-card:focus,
-  .tech-card:active {
+  .skills-card:hover,
+  .skills-card:focus,
+  .skills-card:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -14744,8 +14744,3 @@ body.white-version {
   /* width: 200px; */
   /* margin: 15px; */
 }
-
-
-
-
-
